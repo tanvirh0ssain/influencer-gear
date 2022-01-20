@@ -1,0 +1,74 @@
+/* --------------
+  midea quearies 
+----------------*/
+ /* mobile devices */
+
+ /*---------------------
+     .main-section
+--------------------- */
+
+nav li {
+    display: none;
+  }
+  .main-section {
+    flex-direction: column-reverse;
+  }
+  .main-image {
+    width: 60%;
+    margin-bottom: 50px;
+  }
+  .focus-area {
+    font-size: 40px;
+  }
+  .main-image img {
+    width: 100%;
+  }
+  .juarny-information {
+    width: 90%;
+  }
+  .second-section {
+    grid-template-rows: repeat(9, 1fr);
+    margin-top: -10px;
+    margin-bottom: 40px;
+  }
+  
+  /*--------------------
+      second-section
+  --------------------- */
+  .second-section {
+    grid-template-columns: repeat(1, 1fr);
+    
+  }
+  .product {
+    margin-left: -45px;
+
+  }
+  
+  /*-------------------
+      last section
+  --------------------*/
+  .featured {
+   
+    flex-direction: column;
+  }
+  .featured-image img {
+    width: 320px;
+    padding-left: 37px;
+  }
+  .featured-info {
+    width: 350px;
+    padding-left: 30px;
+  }
+  .focus-area2 {
+    font-size: 30px;
+    padding: 0px 15px 0px 15px;
+  }
+  .info {
+    width: 300px;
+  }
+  /*-------------
+      feedback
+  --------------*/
+  .feedback-container {
+    width: 60%;
+  }
