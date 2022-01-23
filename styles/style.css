@@ -188,7 +188,7 @@ ul li {
   padding: 5px;
   margin-top: 8px;
   border-radius: 8px;
-  font-size: large;
+  font-size: large ;
 }
 
 
@@ -235,3 +235,146 @@ footer {
   padding-top: 40px;
 }
 
+
+/* mobile responsive */
+@media only screen and (max-width: 687px) {
+  
+  
+ nav li {
+    display: none;
+  }
+  .main-section {
+    flex-direction: column-reverse;
+  }
+  .main-image {
+    width: 60%;
+    margin-bottom: 50px;
+  }
+  .focus-area {
+    font-size: 40px;
+  }
+  .main-image img {
+    width: 100%;
+  }
+  .juarny-information {
+    width: 90%;
+  }
+  .second-section {
+    grid-template-rows: repeat(9, 1fr);
+    margin-top: -10px;
+    margin-bottom: 40px;
+  }
+  
+  /*--------------------
+      second-section
+  --------------------- */
+  .second-section {
+    grid-template-columns: repeat(1, 1fr);
+    
+  }
+  .product {
+    margin-left: -45px;
+
+  }
+  
+  /*-------------------
+      last section
+  --------------------*/
+ .featured {
+   
+    flex-direction: column;
+  }
+  .featured-image img {
+    width: 320px;
+    padding-left: 37px;
+  }
+  .featured-info {
+    width: 350px;
+    padding-left: 30px;
+  }
+  .focus-area2 {
+    font-size: 30px;
+    padding: 0px 15px 0px 15px;
+  }
+  .info {
+    width: 300px;
+  } 
+  /*-------------
+      feedback
+  --------------*/
+ .feedback-container {
+    width: 60%;
+  }  
+}
+/* tab responsive */
+
+
+@media  only screen and (min-width: 688px) and (max-width: 992px) {
+  
+
+  nav li {
+    display: none;
+  }
+  .main-section {
+    flex-direction: column-reverse;
+  }
+  .main-image {
+    width: 60%;
+    margin-bottom: 50px;
+  }
+  .focus-area {
+    font-size: 40px;
+  }
+  .main-image img {
+    width: 100%;
+  }
+  .juarny-information {
+    width: 90%;
+  }
+
+
+   /*--------------------
+      second-section
+  --------------------- */
+  
+  .second-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+  
+ 
+  
+  /*-------------------
+      last section
+  --------------------*/
+  .featured {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .featured-image img {
+    width: 370px;
+    margin-left: -19%;
+  }
+  .featured-info {
+    width: 350px;
+    padding-left: 20px;
+    padding: 0px 15px 0px 15px;
+  }
+  .focus-area2 {
+    font-size: 30px;
+    
+  }
+  .info {
+    width: 280px;
+  }
+  /*-------------
+      feedback
+  --------------*/
+  .feedback-container {
+    width: 60%;
+  }
+}
